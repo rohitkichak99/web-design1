@@ -1,0 +1,51 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+nav {
+    background-color: white;
+    width: 100%;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 50px;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    background-attachment: fixed;
+
+
+
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 30px;
+    font-family: cursive;
+    color: #ff2b85;
+    margin: 0 10px;
+}
+
+.banner {
+    background: url(../image/about-foodpanda-1920x539.jpeg);
+    width: 100%;
+    height: 280px;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.banner h1 {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    position: relative;
+    top: 145px;
+    width: 30%;
+    margin: auto;
+    background: rgba(0, 0, 244, 0.4);
+}

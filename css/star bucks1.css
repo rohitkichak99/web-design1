@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+   background: whitesmoke;
+   width: 100%;
+   height: 85%;
+   align-items: center;
+   padding: 0 50px;
+   position: flex;
+   top: 0;
+   line-height: 65px; 
+}
+
+nav .menu a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin: 0 10px;
+    text-transform: capitalize;
+
+}
+
+/* nav .menu h2{
+    margin-top: -21px;
+    margin-right: -68px;
+    line-height: 22px;
+    text-shadow: 3px 3px 3px;
+    color: darkgrey; */
+}
+
+nav .logo a{
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: black;
+    margin-top: -65px;
+    margin-left: 875px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.a{
+    float: left;
+    margin: 4px;
+    padding: 4px;
+    border-radius: 0;
+}
+.a img{
+    margin-top: 69px;
+    margin-left: -6px;
+    width: 759px;
+    height: 346px;
+}
+.a p{
+    background: darkslategray;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    height: 346px;
+    width: 759px;
+    margin-top: -366px;
+    margin-left: 753px;
+    line-height: 196px;
+
+}
+
+.a h2{
+    margin-top: -201px;
+    margin-left:  693px;
+    padding-right: 92px;
+    text-align: center;
+    padding-left: 65px;
+    font-size: 19px;
+    color: white;
+}
+.a button{
+    margin-left: 919px;
+    border-radius: 17px;
+    padding: 7px 17px;
+    color: green;
+    margin-top: 20px;
+}
